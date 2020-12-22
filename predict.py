@@ -3,10 +3,10 @@ import time
 import os
 
 #Multi Thread
-from Google_STT_multiThread import GoogleSTT
+# from Google_STT_multiThread import GoogleSTT
 
 #Single Thread
-#from Google_STT_multiCore import GoogleSTT
+from Google_STT_multiCore import GoogleSTT
 
 from koelectraModel import pred_sm
 from robetaModel import pred_cj
