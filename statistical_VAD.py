@@ -138,6 +138,7 @@ def stVAD(signal, sr, nFFT=512, win_length=0.032, hop_length=0.008):
     pre_Vad = 0
     start_fi=[0]
     end_fi=[0]
+    
     for vi in range(len(All_estHngVAD)):
         cVad = All_estHngVAD[vi]
         if (cVad - pre_Vad)==1:
